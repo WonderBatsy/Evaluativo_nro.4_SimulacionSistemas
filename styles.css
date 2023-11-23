@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Libre+Franklin:wght@300&family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa; /* Color de fondo suave */
+}
+
+.h1-title {
+    text-align: center;
+    margin: 30px 0;
+    color: #0a2554; /* Color del título principal */
+}
+
+.h4-css {
+    margin-bottom: 20px;
+    color: #343a40; /* Color del texto principal */
+}
+
+.button-styles {
+    width: 50%;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #007bff; /* Color del botón principal */
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.button-styles:hover {
+    cursor: pointer;
+    background-color: #0056b3; /* Color del botón al pasar el ratón */
+}
+
+.input-date-css {
+    padding: 10px;
+    width: 200px;
+}
+
+.input-date-css:focus {
+    outline: none;
+    border: 1px solid #007bff; /* Borde al enfocar el campo */
+}
+
+.input-hour-css {
+    padding: 10px;
+}
+
+.input-hour-css:focus {
+    outline: none;
+    border: 1px solid #007bff; /* Borde al enfocar el campo */
+}
+
+.container-simulation {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.container-input-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.Reportes {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-top: 20px;
+}
+
+.Reportes h3 {
+    padding-inline: 10px;
+    color: #0a2554; /* Color del texto del título del informe */
+}
